@@ -1,0 +1,56 @@
+@import "color";
+
+.contact{
+
+width: 100%;
+height: 100vh;
+background-color: $second;
+display: flex;
+justify-content: center;
+align-items: center;
+>main{
+background-color: $first;
+height: 30rem;
+width: 70%;
+padding: 3rem;
+border-radius: 0 200px 200px 0;
+>h1{
+margin: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+>div{
+height: 3rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font: 700 1rem black;
+
+>h3{
+
+margin: 1rem;
+font: 800 1.2rem black;
+font-style: $text1;
+animation: slideIn 1s ease-in-out forwards;
+
+
+}
+
+
+
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+}}}
+
+
+    
+
